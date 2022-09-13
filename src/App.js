@@ -1,22 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from "./components/Footer";
 
 function App() {
+  let styleH1 = {
+    color: "brown",
+    textDecoration: "underline",
+    marginTop: "100px",
+  };
+
+  let title = "E-Commerce React"
+
   return (
     <div className="App">
+      <Footer />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h1 style={styleH1}>{title}</h1>
       </header>
     </div>
   );
