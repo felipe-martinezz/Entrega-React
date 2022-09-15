@@ -1,21 +1,14 @@
 import './App.css';
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Products from './components/Products/Products';
 
 function App() {
-  let styleH1 = {
-    color: "brown",
-    textDecoration: "underline",
-    marginTop: "100px",
-  };
-
-  let title = "E-Commerce React"
-
-  return (
+   return (
     <div className="App">
+      <Header />
+      <Products greeting="Mi tienda de PC's" />
       <Footer />
-      <header className="App-header">
-      <h1 style={styleH1}>{title}</h1>
-      </header>
     </div>
   );
 }
