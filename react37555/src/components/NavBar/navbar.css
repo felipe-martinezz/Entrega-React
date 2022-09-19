@@ -1,0 +1,43 @@
+
+.navbar {
+    background-color: burlywood;
+    height: 180px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: +1;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav__enlace {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav__lista {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav__item {
+    font-size: 22px;
+    margin: 0px 60px;
+    line-height: 120px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav__enlace:hover {
+    background-color: goldenrod;
+    transition: 0.5s;
+}
