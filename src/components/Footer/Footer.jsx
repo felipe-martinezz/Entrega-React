@@ -9,7 +9,8 @@ function Footer() {
           <ul>
             <li>Inicio</li>
             <li>Productos</li>
-            <li>Contactos</li>
+            <li>Nosotros</li>
+            <li>Contacto</li>
           </ul>
         </footer>
     );
