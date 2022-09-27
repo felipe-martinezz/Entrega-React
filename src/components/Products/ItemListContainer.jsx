@@ -14,7 +14,7 @@ function ItemListContainer() {
 
   return (
     <div>
-      <div className="main-container">
+      <div className="main container">
         <ItemList data={data}/>
       </div>
     </div>

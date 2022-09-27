@@ -1,12 +1,9 @@
-import React from 'react';
+import React from "react";
 import "./flexWrapper.css";
 
 function FlexWrapper(props) {
-  return (
-    <div className='flexWrapper'>
-       {props.children}
-    </div>
-  )
+  let classnames = `flexWrapper ${props.columns ? "fxRow" : "fxCol"}`;
+  return <div className={classnames}>{props.children}</div>;
 }
 
-export default FlexWrapper
+export default FlexWrapper;
